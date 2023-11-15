@@ -1,0 +1,22 @@
+{
+  "name": "jolin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-config-xo": "^0.43.1",
+    "postcss-scss": "^4.0.9",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}

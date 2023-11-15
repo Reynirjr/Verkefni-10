@@ -1,0 +1,14 @@
+{
+    "extends": "stylelint-config-standard",
+    "customSyntax": "postcss-scss",
+    "rules": {
+      "color-no-invalid-hex": true,
+      "font-family-name-quotes": "always-where-recommended",
+      "property-no-unknown": true,
+      "import-notation": null,
+      "value-keyword-case": null,
+      "property-no-vendor-prefix": null,
+      "rule-empty-line-before": null,
+      "at-rule-empty-line-before": null
+    }
+  }

@@ -1,0 +1,23 @@
+.snow {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: -1;
+    animation-iteration-count: infinite;
+  }
+  #snjor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: -1; // passar að sé í bakgrunni
+    
+  }
+  @keyframes fall{
+    0% { transform: translateY(0); }
+    100% { transform: translateY(200vh); }
+  }
+  
