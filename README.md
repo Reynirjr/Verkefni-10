@@ -1,3 +1,3 @@
 # Verkefni-10
-Notaði Vite build tólið sem javascript tólið ég notaði það til að setja upp allt til að vinna í og var það mjög hentugt.
-fann myndir og titla af uppskriftum af "gingerbread" frá spoonacular api og náði í það til að sýna á vefsíðunni.
+Spoonacular er vefþjónusta sem veitir aðgang að miklum gagnagrunni af mataruppskriftum og tengdum upplýsingum. Ég notaði API þjónustuna til að sækja myndir og titla af ýmsum uppskriftum.
+Ég setti upp Vite í verkefninu mínu til að nýta þægindi þess í þróunarferlinu og notaði Vite til að keyra þróunarserver og sjá breytingar í rauntíma.
