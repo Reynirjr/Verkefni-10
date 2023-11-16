@@ -22,10 +22,12 @@ setInterval(updateCountdown, 1000);
 /* Uppskriftirnar sem sóttar eru á spoonacular */
 function displayRecipes(recipes) {
 	const recipesContainer = document.getElementById('recipes');
+	const youtubeLink = 'https://www.youtube.com/watch?v=-TK3EF5prS8';
 	recipes.forEach(recipe => {
 		const recipeElement = document.createElement('div');
 		recipeElement.classList.add('recipe');
 		recipeElement.innerHTML = `
+			<a href="${youtubeLink}" target="_blank">
             <h3>${recipe.title}</h3>
             <img src="${recipe.image}" alt="${recipe.title}">
           
